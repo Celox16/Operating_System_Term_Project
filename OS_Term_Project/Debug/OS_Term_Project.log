@@ -1,0 +1,4 @@
+﻿  Main.c
+d:\github\operating_system_term_project\os_term_project\main.c(15): warning C4101: 'a' :참조되지 않은 지역 변수입니다.
+d:\github\operating_system_term_project\os_term_project\main.c(16): warning C4101: 'b' :참조되지 않은 지역 변수입니다.
+  OS_Term_Project.vcxproj -> D:\GitHub\Operating_System_Term_Project\OS_Term_Project\Debug\OS_Term_Project.exe
