@@ -10,13 +10,16 @@
 #include <string.h>
 #include <math.h>
 #include <timeapi.h>
+#include "Input_Output.h"
+#pragma once
+
 
 void Print(void);
-void Resort(PROCESS_INPUT, PROCESS_OUTPUT);
-void FCFS_Algorithm(PROCESS_INPUT);
-void SJF_Algorithm(PROCESS_INPUT);
-void Priority_Algorithm(PROCESS_INPUT);
-void Pre_Point_Priority_Algorithm(PROCESS_INPUT);
-void Round_Robin_Algorithm(PROCESS_INPUT);
-void SRT_Algorithm(PROCESS_INPUT);
-void HRN_Algorithm(PROCESS_INPUT);
+void Resort(PROCESS_INPUT *Process, PROCESS_OUTPUT *OUTPUT);
+void FCFS_Algorithm(PROCESS_INPUT *Process, int Process_Num);
+void SJF_Algorithm(PROCESS_INPUT *Process, int Process_Num);
+void Priority_Algorithm(PROCESS_INPUT *Process, int Process_Num);
+void Pre_Point_Priority_Algorithm(PROCESS_INPUT *Process, int Process_Num);
+void Round_Robin_Algorithm(PROCESS_INPUT *Process, int _Process_Num);
+void SRT_Algorithm(PROCESS_INPUT *Process, int Process_Num);
+void HRN_Algorithm(PROCESS_INPUT *Process, int Process_Num);
