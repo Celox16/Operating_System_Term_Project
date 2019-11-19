@@ -7,9 +7,9 @@
 #include "Input_Output.h"
 
 
-
 int main(void)
 {
+	Print();
 	Print();
 
 	return 0;
