@@ -3,5 +3,5 @@
 
 void FCFS_Algorithm(PROCESS_INPUT *Process, int Process_num)
 {
-
+	printf("È«ÇØ¸°¤² ¤Å¤·½Å");
 }
