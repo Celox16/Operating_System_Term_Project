@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="Print.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
@@ -28,6 +25,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="File_Input.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
