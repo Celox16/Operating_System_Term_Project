@@ -28,5 +28,5 @@ typedef struct PROCESS_OUTPUT {
 	int Response_Time_for_Each_Process;	// 각 프로세스 별 응답시간
 	int Average_Response_Time;			// 평균 응답 시간
 	int Return_Time_for_Each_Process;	// 각 프로세스 별 반환 시간
-	int Average_Return_Time;			// 평균 반환 시간
+	int Average_Return_Time;			// 평균 반환 시
 }PROCESS_OUTPUT;
