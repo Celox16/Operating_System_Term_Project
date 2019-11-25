@@ -4,6 +4,7 @@
 		수정사항	: None
 */
 
+#pragma once
 #include <stdio.h>
 #include <windows.h>
 #include <stdlib.h>
@@ -11,11 +12,10 @@
 #include <math.h>
 #include <timeapi.h>
 #include "Input_Output.h"
-#pragma once
-
 
 void Print(void);
-void Resort(PROCESS_INPUT *Process, PROCESS_OUTPUT *OUTPUT);
+void File_Input(int Process_Num);
+void File_Output(PROCESS_OUTPUT *Process);
 void FCFS_Algorithm(PROCESS_INPUT *Process, int Process_Num);
 void SJF_Algorithm(PROCESS_INPUT *Process, int Process_Num);
 void Priority_Algorithm(PROCESS_INPUT *Process, int Process_Num);

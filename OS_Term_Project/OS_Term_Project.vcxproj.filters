@@ -27,6 +27,9 @@
     <ClCompile Include="SJF_Algorithm.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="File_Input.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">

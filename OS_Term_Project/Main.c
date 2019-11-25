@@ -9,8 +9,11 @@
 
 int main(void)
 {
-	Print();
-	Print();
-	Print();
+	int Process_Num;
+
+	printf("몇개의 프로세스를 입력 받으시겠습니까? : ");
+	scanf("%d", &Process_Num);
+	
+	File_Input(Process_Num);
 	return 0;
 }

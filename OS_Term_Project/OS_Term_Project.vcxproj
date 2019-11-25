@@ -142,6 +142,7 @@
     <ClCompile Include="FCFS_Algorithm.c" />
     <ClCompile Include="Main.c" />
     <ClCompile Include="Print.c" />
+    <ClCompile Include="File_Input.c" />
     <ClCompile Include="SJF_Algorithm.c" />
   </ItemGroup>
   <ItemGroup>
