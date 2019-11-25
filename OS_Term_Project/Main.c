@@ -11,6 +11,6 @@ int main(void)
 {
 	Print();
 	Print();
-
+	Print();
 	return 0;
 }
