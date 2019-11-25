@@ -7,4 +7,5 @@ void FCFS_Algorithm(PROCESS_INPUT *Process, int Process_num)
 	printf("tEST");
 	Print(); Print();
 	Print();;;;;
-}
+	Print();
+} 
