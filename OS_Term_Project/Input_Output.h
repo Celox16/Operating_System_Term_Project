@@ -5,7 +5,6 @@
 		수정사항	: None
 */
 
-
 // Process 입력
 // 반드시 순서 지켜야함
 // 우선순위 숫자가 클수록 우선순위 높아야 함
@@ -13,7 +12,7 @@ typedef struct PROCESS_INPUT {
 	int Process_Number;					// 프로세스 수
 	int Process_ID;						// 프로세스 ID
 	int Time_Arrival;					// 도착시간
-	int Service_Time;					// 서비스 시간
+	int Service_Time;					// 실행 시간
 	int Priority;						// 우선 순위
 	int Time_Quamtum;					// 시간 할당량
 }PROCESS_INPUT;

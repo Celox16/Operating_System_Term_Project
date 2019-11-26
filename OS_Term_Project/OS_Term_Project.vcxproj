@@ -141,13 +141,14 @@
   <ItemGroup>
     <ClCompile Include="FCFS_Algorithm.c" />
     <ClCompile Include="main.c" />
-    <ClCompile Include="Print.c" />
+    <ClCompile Include="Start.c" />
     <ClCompile Include="File_Input.c" />
     <ClCompile Include="SJF_Algorithm.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h" />
     <ClInclude Include="Input_Output.h" />
+    <ClInclude Include="UI.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
