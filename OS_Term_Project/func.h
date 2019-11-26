@@ -13,9 +13,16 @@
 #include <timeapi.h>
 #include "Input_Output.h"
 
+// 메뉴 실행 관련 메뉴화면
 int Menu(void);
+void Scheduling_Algorithm(void);
+void reset(void);
+
+// 파일 입출력 함수원형
 void File_Input(int Process_Num);
 void File_Output(PROCESS_OUTPUT *Process);
+
+// 스케줄링 알고리즘 함수원형
 void FCFS_Algorithm(PROCESS_INPUT *Process, int Process_Num);
 void SJF_Algorithm(PROCESS_INPUT *Process, int Process_Num);
 void Priority_Algorithm(PROCESS_INPUT *Process, int Process_Num);

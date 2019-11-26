@@ -139,11 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FCFS_Algorithm.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="File_Input.c" />
     <ClCompile Include="Menu.c" />
-    <ClCompile Include="SJF_Algorithm.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h" />

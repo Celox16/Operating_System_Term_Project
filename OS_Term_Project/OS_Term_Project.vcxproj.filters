@@ -15,12 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="FCFS_Algorithm.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="SJF_Algorithm.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="File_Input.c">
       <Filter>소스 파일</Filter>
     </ClCompile>

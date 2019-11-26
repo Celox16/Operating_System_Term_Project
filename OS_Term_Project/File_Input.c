@@ -6,5 +6,5 @@ void File_Input(int Process_Num)
 {
 	FILE *fp1;
 	fp1 = fopen("Input.txt", "w");
-	printf("");
+	
 }
