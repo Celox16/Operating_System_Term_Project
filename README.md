@@ -1,5 +1,5 @@
 # OS_Project
-
+강민이짱짱
 * Operating System Term-Project\
 * Develops 7 CPU Scheduling Simulator\,
 * FCFS, SJF, Priority, Pre-Point Priority, Round Robin, SRT, HRN Algorithm
