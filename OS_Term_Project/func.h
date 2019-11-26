@@ -15,8 +15,8 @@
 
 // 메뉴 실행 관련 메뉴화면
 int Menu(void);
-void Scheduling_Algorithm(void);
-void reset(void);
+void Scheduling_Algorithm(int choice);
+void Reset(void);
 
 // 파일 입출력 함수원형
 void File_Input(int Process_Num);

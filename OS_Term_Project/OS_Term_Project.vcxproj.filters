@@ -24,6 +24,12 @@
     <ClCompile Include="Menu.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Scheduling.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Reset.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="func.h">
