@@ -3,8 +3,11 @@
 
 int main(void)
 {
-	printf("아 개빡친다.");
-	printf("너도 빡치냐?");
+	int Process_Num;
+
+	printf("프로세스를 몇개 실행 하시겠습니까?");
+	scanf("%d", &Process_Num);
+	
 
 	return 0;
 }
