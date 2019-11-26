@@ -3,5 +3,5 @@
 
 void Reset(void)
 {
-
+	// Reset Code 미구현 상태
 }
