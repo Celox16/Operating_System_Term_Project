@@ -3,7 +3,13 @@
 
 int main(void)
 {
-	int Process_Num;
+	int choice;
+	choice = Menu();
+	
+	switch (choice) 
+	{
+
+	}
 
 	return 0;
 }

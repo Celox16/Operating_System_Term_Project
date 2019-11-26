@@ -13,7 +13,7 @@
 #include <timeapi.h>
 #include "Input_Output.h"
 
-void menu(void);
+int Menu(void);
 void File_Input(int Process_Num);
 void File_Output(PROCESS_OUTPUT *Process);
 void FCFS_Algorithm(PROCESS_INPUT *Process, int Process_Num);
